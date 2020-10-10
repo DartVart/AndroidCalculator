@@ -1,4 +1,4 @@
-package com.example.androidcalculator
+package homeworks.homework4.calculator
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
