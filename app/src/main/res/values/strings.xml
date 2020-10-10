@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidCalculator</string>
+    <string name="label">It\'s my calculator!</string>
+</resources>
