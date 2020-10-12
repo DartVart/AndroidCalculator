@@ -1,4 +1,24 @@
 <resources>
-    <string name="app_name">AndroidCalculator</string>
-    <string name="label">It\'s my calculator!</string>
+    <string name="app_name">Calculator</string>
+    <string name="zeroButtonText">0</string>
+    <string name="oneButtonText">1</string>
+    <string name="twoButtonText">2</string>
+    <string name="threeButtonText">3</string>
+    <string name="fourButtonText">4</string>
+    <string name="fiveButtonText">5</string>
+    <string name="sixButtonText">6</string>
+    <string name="sevenButtonText">7</string>
+    <string name="eightButtonText">8</string>
+    <string name="nineButtonText">9</string>
+    <string name="dot">.</string>
+    <string name="subtractionSign">-</string>
+    <string name="additionSign">+</string>
+    <string name="divisionSign">÷</string>
+    <string name="multiplicationSign">×</string>
+    <string name="equalsSign">=</string>
+    <string name="deleteOneSymbolButtonText">DEL</string>
+    <string name="clearButtonText">С</string>
+    <string name="closingBracket">)</string>
+    <string name="openBracket">(</string>
+    <string name="defaultExpressionValue">0</string>
 </resources>
