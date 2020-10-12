@@ -71,11 +71,11 @@ class InfixToPostfixConverter(private val calculatorUtilities: CalculatorUtiliti
     }
 
     private fun handleUnaryOperator(sign: String, tokens: Stack<String>) {
-        val mainCharacter =
+        val mainSign =
             calculatorUtilities.findUnaryOperationByAdditionalSign(sign)?.sign
                 ?: calculatorUtilities.findUnaryOperationByMainSign(sign)?.sign
                 ?: throw CalculatorException("Attempting to process a non-existing unary operation")
-        tokens.push(mainCharacter)
+        tokens.push(mainSign)
     }
 
     private fun getPriority(operator: String) =
