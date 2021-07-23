@@ -1,10 +1,42 @@
 <resources>
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="button">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="buttonWithNumber" parent="button">
+        <item name="android:background">@color/gray</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="buttonWithNonNumericCharacter" parent="button">
+        <item name="android:background">@color/orange</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="standardViewText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="horizontalScroll">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:textSize">30sp</item>
+    </style>
 </resources>
